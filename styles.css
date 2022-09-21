@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding: 20px;
+}
+
+body{
+    background: #e5e5e5;
+}
+header{
+    width: 100%;
+    height: 3%;
+    /* background-color: blanchedalmond; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    /* background-color: rgb(50,60,10); */
+    display:flex;
+    justify-content: space-between;
+}
+section{
+    width: 40%;
+    height: 90%;
+    /* background-color: green; */
+    
+}
+
+.seccion1{
+    width:70%;
+
+}
+.mensaje{
+    width: 70%;
+    height: 85%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-Desencriptar{
+    width: 23%;
+    height: 7%;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-color: #0A3871;
+    border-radius: 16px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.btn-encriptar{
+    width: 23%;
+    height: 7%;
+    color: white;
+    background-color: #0A3871;
+    border: #0A3871;
+    border-radius: 16px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.contenedor-botones{
+    text-align: center;
+    padding: 20px;
+   
+}
+
+
+.seccion2{
+    width:24%;
+    height: 90%;
+    
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 7px 7px 20px #00000029;  
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.contenedor-munieco{
+    width: 100%;
+    height: 70%;
+    padding-top: 90px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.contenedor-h3{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedor-parrafo{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif
+}
+
+.contenedor-resultado{
+    width: 100%;
+    height: 90%;
+    padding: 25px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Montserrat';
+}
+.texto-resultado{
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    border-color: white;
+    border-radius: 7px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+}
+.copiar{
+    width: 55%;
+    height: 40px;
+    border-radius: 16px;
+    border-color: #0A3871;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    width: 100%;
+    height: 5%;
+    /* background-color:bisque; */
+}
+footer p{
+    text-align: center;
+    font-family: monospace;
+    /* padding-bottom: 3px; */
+    font-size: 110% ;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.ocultar{
+    display:none;
+}
+
+
+
+
+@media screen and (max-width:1080px){
+    .seccion1{
+        margin-top: 50px;
+        position: absolute;
+        width: 688px;
+        height: 150%;
+        left: 20px;
+        top: 40px;
+    }
+    .mensaje{
+        width: 90%;
+        height: 60%;
+    }
+    .seccion2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+
+        position: absolute;
+        width: 650px;
+        height: 433px;
+        left: 20px;
+        right: 20px;
+        top: 125%;
+    }
+    .btn-encriptar{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        width: 300px;
+        height: 67px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+    .btn-Desencriptar{
+        
+        display: flex;
+        flex-direction:;
+        align-items:flex-end;
+        padding: 24px;
+        gap: 8px;
+
+        width: 300px;
+        height: 67px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+
+        
+    }
+    footer p{
+        text-align:end;
+    }
+}
